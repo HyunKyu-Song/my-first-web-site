@@ -1,46 +1,89 @@
 <!doctype html>
 <html>
-<head>
-	<title>프로미스나인</title>
-</head>
+	<head>
+		<title>프로미스나인</title>
+		<style>
+			#grid{
+				display: grid;
+				grid-template-columns: 200px 680px 200px;
+				padding-left: 20px;
+			}
 
-<body>
-	<ul>
-		<li><a href="2.html">소개</a></li>
-		<li><a href="1.html">멤버</a></li>
-		<li><a href="3.html">수상</a></li>
-		<li><a href="https://www.pledis.co.kr/html/artist/fromisnine/KOR" target="_blank" title="Promis_9 Official Homepage">공식 홈페이지</a></li>
-	</ul>
-	<h1><a href="index.html">Promis_9 프로미스나인</a></h1>
-	
-	<p>
-	<h2>< 컴백 ></h2>
+			#album{
+				display: grid;
+				grid-template-columns: 500px 500px 500px;
+				padding: 0;
+				margin: 40px;
+			}
 
-	<strong>2022년 6월 27일 월요일 18시 컴백!!</strong><br><br>
-	<strong>올 여름을 시원하게 만들어줄 앨범 from our Memento Box를 가지고 돌아왔다!!</strong><br><br>
-	
-	<img src="앨범.jpg" width="350">
-	
-	<div id="disqus_thread"></div>
-	<script>
-		/**
-		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
-		/*
-		var disqus_config = function () {
-		this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-		this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-		};
-		*/
-		(function() { // DON'T EDIT BELOW THIS LINE
-		var d = document, s = d.createElement('script');
-		s.src = 'https://fromis-9-fan-site.disqus.com/embed.js';
-		s.setAttribute('data-timestamp', +new Date());
-		(d.head || d.body).appendChild(s);
-		})();
-	</script>
-	<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-	
-	</p>
-</body>
+			.saw{
+				color:orange;
+			}
+
+			a{
+				color:black;
+				text-decoration: none;
+			}
+
+			h1{
+				font-size: 45px;
+				text-align: center;
+				border-bottom: 3px solid black;
+				padding: 20px;
+				margin: 20px;
+			}
+
+			ul, h2{
+				margin: 0;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1><a href="index.html" class="saw" title="Home으로 돌아가기">Promis_9 프로미스나인</a></h1>
+		<div id="grid">
+			<ul>
+				<li><a href="2.html">소개</a></li>
+				<li><a href="1.html">멤버</a></li>
+				<li><a href="3.html">수상</a></li>
+				<li><a href="https://www.pledis.co.kr/html/artist/fromisnine/KOR" target="_blank" title="Promis_9 Official Homepage">Official Homepage</a></li>
+				<li><a href="https://cafe.daum.net/fromis9" target="_blank" title="Fan Club">Fan Club</a></la>
+				<li><a href="https://www.instagram.com/officialfromis_9/" target="_blank" title="Instargram">Instargram</a></li>
+				<li><a href="https://www.youtube.com/channel/UC8qO5racajmy4YgPgNJkVXg" target="_blank" title="YouTube">YouTube</a></la>
+				<li><a href="https://www.vlive.tv/channel/D5E529" target="_blank" title="V LIVE">V LIVE</a></la>
+				<li><a href="https://twitter.com/realfromis_9" target="_blank" title="Twitter">Twitter</a></la>
+
+
+			</ul>
+			<div id="ment">
+				<h2>< 컴백 ></h2><br>
+				<strong>2022년 6월 27일 월요일 18시 컴백!!</strong><br><br>
+				<strong>올 여름을 시원하게 만들어줄 앨범 from our Memento Box를 가지고 돌아왔다!!</strong><br><br>
+				<strong>프로미스나인, '서머 여신'으로 돌아왔다! 여름 가요계 정조준!</strong><br>
+				<strong>뜨겁고 눈부신 여름날의 기억 담긴 [from our Memento Box] 발매</strong><br>
+				<strong>“우리 떠날래?”…프로미스나인과 함께하는 여기가 파라다이스</strong><br>
+				<strong>서머송 'Stay This Way'으로 무더위·월요병 시원하게 날린다!</strong><br><br>
+				<strong>그룹 프로미스나인이 미니 5집 [from our Memento Box]로</strong><br>
+				<strong>뜨겁고 눈부신 여름날의 기억을 나눈다.</strong><br>
+			</div>
+			<div>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/JC6budcACNE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+
+		<p>
+			<div id="album">
+				<div>
+					<img src="앨범.jpg" width="400px">
+				</div>
+				<div>
+					<img src="앨범제주버젼.png" width="400px">
+				</div>
+				<dvr>
+					<img src="앨범드림버젼.png" width="400px">
+				</div>
+			</div>
+		</p>
+
+	</body>
 </html>

@@ -2,63 +2,170 @@
 <html>
 <head>
 	<title>프로미스나인</title>
+	<style>
+    #member{
+      display: grid;
+      grid-template-columns: 350px 350px 350px;
+    }
+
+		.container {
+		  position: relative;
+		  width: 90%;
+		}
+
+		.image {
+		  display: block;
+		  width: 100%;
+		  height: auto;
+		}
+
+		.overlay {
+		  position: absolute;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  background-color: #32d8db;
+		  overflow: hidden;
+		  width: 0;
+		  height: 100%;
+		  transition: .5s ease;
+		}
+
+		.container:hover .overlay {
+		  width: 100%;
+		}
+
+		.text {
+		  white-space: nowrap;
+		  color: black;
+		  font-size: 14px;
+		  position: absolute;
+		  overflow: hidden;
+		  top: 50%;
+		  left: 50%;
+		  transform: translate(-50%, -50%);
+		  -ms-transform: translate(-50%, -50%);
+		}
+	</style>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+	<h1><a href="index.html" title="Home으로 돌아가기">Promis_9 프로미스나인</a></h1>
 	<ul>
 		<li><a href="2.html">소개</a></li>
-		<li><a href="1.html">멤버</a></li>
+		<li><a href="1.html" style=text-decoration:underline;>멤버</a></li>
 		<li><a href="3.html">수상</a></li>
-		<li><a href="https://www.pledis.co.kr/html/artist/fromisnine/KOR" target="_blank" title="Promis_9 Official Homepage">공식 홈페이지</a></li>
 	</ul>
-	<h1><a href="index.html">Promis_9 프로미스나인</a></h1>
 
 	<p>
-	<h2>< Member ></h2>
+		<h2>< Member ></h2>
+	  <div id="member">
+	    <div>
+				<div class="container">
+					<img src="이새롬.png" class="image" width="400px">
+					<div class="overlay">
+						<div class="text">
+							<strong>이새롬</strong><br>
+				    	1997년 1월 7일 캡틴, 서브보컬, 리드댄서<br>
+						</div>
+					</div>
+					<br>
+				</div>
 
-	<strong>이새롬</strong><br>
-	1997년 1월 7일 캡틴, 서브보컬, 리드댄서<br>
-	<img src="이새롬.png" width="300">
-	<br><br>
-	
-	<strong>송하영</strong><br>
-	1997년 9월 29일 메인댄서, 리드보컬<br>
-	<img src="송하영.png" width="300">
-	<br><br>
-	
-	<strong>장규리</strong><br>
-	1997년 12월 27일 리드보컬<br>
-	<img src="장규리.png" width="300">
-	<br><br>
-	
-	<strong>박지원</strong><br>
-	1998년 3월 20일 메인보컬<br>
-	<img src="박지원.png" width="300">
-	<br><br>
-	
-	<strong>노지선</strong><br>
-	1998년 11월 23일 센터, 서브보컬, 리드댄서<br>
-	<img src="노지선.png" width="300">
-	<br><br>
-	
-	<strong>이서연</strong><br>
-	2000년 1월 22일 메인래퍼, 서브보컬<br>
-	<img src="이서연.png" width="300">
-	<br><br>
-	
-	<strong>이채영</strong><br>
-	2000년 5월 14일 메인대서, 서브보컬, 리드래퍼<br>
-	<img src="이채영.png" width="300">
-	<br><br>
-	
-	<strong>이나경</strong><br>
-	2000년 6월 1일 서브보컬, 리드댄서<br>
-	<img src="이나경.png" width="300">
-	<br><br>
-	
-	<strong>백지헌</strong><br>
-	2003년 4월 17일 서브보컬<br>
-	<img src="백지헌.png" width="300">
+				<div class="container">
+					<img src="박지원.jpg" class="image" width="400px">
+					<div class="overlay">
+						<div class="text">
+							<strong>박지원</strong><br>
+				    	1998년 3월 20일 메인보컬<br>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="container">
+					<img src="이채영.jpg" class="image" width="400px">
+					<div class="overlay">
+						<div class="text">
+							<strong>이채영</strong><br>
+				    	2000년 5월 14일 메인대서, 서브보컬, 리드래퍼<br>
+						</div>
+					</div>
+					<br>
+				</div>
+	    </div>
+
+	    <div>
+				<div class="container">
+					<img src="장규리.png" class="image" width="400px">
+					<div class="overlay">
+						<div class="text">
+							<strong>장규리</strong><br>
+				    	1997년 12월 27일 리드보컬<br>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="container">
+					<img src="노지선.jpg" class="image" width="400px">
+					<div class="overlay">
+						<div class="text">
+							<strong>노지선</strong><br>
+				    	1998년 11월 23일 센터, 서브보컬, 리드댄서<br>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="container">
+					<img src="이나경.jpg" class="image" width="400px">
+					<div class="overlay">
+						<div class="text">
+							<strong>이나경</strong><br>
+				    	2000년 6월 1일 서브보컬, 리드댄서<br>
+						</div>
+					</div>
+					<br>
+				</div>
+	    </div>
+
+	    <div>
+				<div class="container">
+					<img src="송하영.jpg" class="image" width="400px">
+					<div class="overlay">
+						<div class="text">
+							<strong>송하영</strong><br>
+				    	1997년 9월 29일 메인댄서, 리드보컬<br>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="container">
+					<img src="이서연.jpg" class="image" width="400px">
+					<div class="overlay">
+						<div class="text">
+							<strong>이서연</strong><br>
+				    	2000년 1월 22일 메인래퍼, 서브보컬<br>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="container">
+					<img src="백지헌.jpg" class="image" width="400px">
+					<div class="overlay">
+						<div class="text">
+							<strong>백지헌</strong><br>
+							2003년 4월 17일 서브보컬<br>
+						</div>
+					</div>
+					<br>
+				</div>
+	    </div>
+	  </div>
 	</p>
 </body>
 </html>
